@@ -32,6 +32,12 @@ class Amount extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'value'
+        ],
+        'exchangeRate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'exchangeRate'
         ]
     ];
 
